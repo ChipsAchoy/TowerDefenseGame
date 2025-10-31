@@ -1,0 +1,59 @@
+# --- Unity (carpetas generadas) ---
+[Ll]ibrary/
+[Tt]emp/
+[Oo]bj/
+[Bb]uild/
+[Bb]uilds/
+[Ll]ogs/
+[Mm]emoryCaptures/
+[Uu]ser[Ss]ettings/
+
+# Cache y artefactos varios
+*.pidb
+*.booproj
+*.svd
+*.pdb
+*.mdb
+*.opendb
+*.VC.db
+sysinfo.txt
+
+# Asset Store Tools (plugin viejo)
+Assets/AssetStoreTools*
+
+# --- IDEs / editores ---
+# Visual Studio / MSBuild
+.vs/
+*.csproj
+*.sln
+*.suo
+*.user
+*.userprefs
+
+# Rider / IntelliJ
+.idea/
+*.sln.iml
+
+# VS Code
+.vscode/
+
+# --- Plataformas / builds resultantes ---
+# Android
+*.apk
+*.aab
+# iOS/Xcode (si usas DerivedData fuera del proyecto, coméntalo)
+DerivedData/
+
+# --- Unity Packages exportados ---
+*.unitypackage
+
+# --- Sistemas operativos ---
+.DS_Store
+Thumbs.db
+
+# --- Packages: mantener manifest y lock, ignorar el resto generado ---
+[Pp]ackages/*
+![Pp]ackages/manifest.json
+![Pp]ackages/packages-lock.json
+
+# Nota: NO ignores ProjectSettings/ ni Assets/ (incluye siempre los .meta)
