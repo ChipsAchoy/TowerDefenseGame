@@ -1,0 +1,142 @@
+{
+  "cards": [
+    {
+      "id": "dinoborg1",
+      "name": "Raptor",
+      "description": "Fast Dinoborg that hits a single enemy.",
+      "effect": "",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 0.0,
+      "health": 6,
+      "damage": 2,
+      "mana": 1,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Nexus" ],
+      "attack_type": "normal",
+      "level": 1,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 1,
+        "utility": 0
+      }
+    },
+    {
+      "id": "dinoborg2",
+      "name": "Rex",
+      "description": "High-damage Dinoborg with a chance to weaken.",
+      "effect": "Weaken",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 0.3,
+      "health": 8,
+      "damage": 3,
+      "mana": 3,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Umbral" ],
+      "attack_type": "normal",
+      "level": 3,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 2,
+        "utility": 1
+      }
+    },
+    {
+      "id": "dinoborg3",
+      "name": "Ankylosaurus",
+      "description": "Heavily armored Dinoborg with low damage.",
+      "effect": "",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 0.0,
+      "health": 10,
+      "damage": 1,
+      "mana": 3,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Gravion" ],
+      "attack_type": "normal",
+      "level": 3,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 3,
+        "utility": 0
+      }
+    },
+    {
+      "id": "dinoborg4",
+      "name": "Carnotaurus",
+      "description": "Medium-damage Dinoborg that attacks across the row.",
+      "effect": "",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 0.0,
+      "health": 7,
+      "damage": 2,
+      "mana": 3,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Plasma" ],
+      "attack_type": "gravitational",
+      "level": 3,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 1,
+        "utility": 0
+      }
+    },
+    {
+      "id": "dinoborg5",
+      "name": "Triceratops",
+      "description": "Balanced Dinoborg with a chance to Fade.",
+      "effect": "Fade",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 0.2,
+      "health": 8,
+      "damage": 2,
+      "mana": 2,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Fluid" ],
+      "attack_type": "normal",
+      "level": 2,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 2,
+        "utility": 1
+      }
+    },
+    {
+      "id": "dinoborg6",
+      "name": "Pteranodon",
+      "description": "Support Dinoborg that grants Fury to the front ally.",
+      "effect": "Fury",
+      "effect_conditions": {},
+      "effect_application": {},
+      "effect_chance": 1.0,
+      "health": 5,
+      "damage": 0,
+      "mana": 2,
+      "summon_method": "normal",
+      "summon_conditions": {},
+      "tags": [ "Dinoborg", "Radiant" ],
+      "attack_type": "normal",
+      "level": 2,
+      "image": "",
+      "stats": {
+        "attack": 1,
+        "defense": 1,
+        "utility": 3
+      }
+    }
+  ]
+}
